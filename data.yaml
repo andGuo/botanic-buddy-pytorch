@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 50
+names: ['adenium', 'adiantum', 'aglaonema', 'alocasia', 'aloe-vera', 'amaryllis', 'anthurium', 'araucaria-heterophylla', 'bambusa', 'begonia', 'begonia-rex', 'boston-fern', 'chlorophytum-comosum', 'crassula-ovata', 'croton', 'curio-rowleyanus', 'dieffenbachia', 'dracaena-trifasciata', 'echeveria', 'epipremnum', 'euphorbiamilii', 'fatsia-japonica', 'ficus-benjamina', 'ficus-elastica', 'fiddle-leaf', 'haworthiopsis-attenuata', 'hedera-helix', 'hypoestes-phyllostachya', 'kalanchoe', 'mesembryanthemum-cordifolium', 'monstera-deliciosa', 'opuntia-microdasys', 'pachira', 'pachypodium-lamerei', 'pedilanthus', 'pelargonium-graveolens', 'pelargonium-hortorum', 'pelargonium-x-domesticum', 'peperomia-caperata', 'phalaenopsis', 'pilea-peperomioides', 'poinsettia', 'ponytail-palm', 'schefflera', 'spathiphyllum', 'syngonium', 'thaumatophyllum-bipinnatifidum', 'tradescantia-fluminensis', 'verbena', 'zamioculcas']
+
+roboflow:
+  workspace: botanicbuddy
+  project: botanic_buddy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/botanicbuddy/botanic_buddy/dataset/1
